@@ -305,11 +305,12 @@
 
     \begin{frame}{}
         \begin{leftbar}
-            您可通过如下链接之一获取本\texttt{cuzbeamer}模板与相应的示例文件：
+            您可通过如下链接之一获取本\texttt{njubeamer}模板与相应的示例文件：
             \par
             \begin{center}
-                \href{https://github.com/xiehao/cuzbeamer}{https://github.com/xiehao/cuzbeamer}\par
-                \href{https://bitbucket.org/xiehao/cuzbeamer}{https://bitbucket.org/xiehao/cuzbeamer}
+                \href{https://github.com/Niu-Liu/njubeamer}{https://github.com/Niu-Liu/njubeamer}
+                % \par
+                % \href{https://bitbucket.org/xiehao/cuzbeamer}{https://bitbucket.org/xiehao/cuzbeamer}
             \end{center}
             本模板本身遵循如下
             \href{http://creativecommons.org/licenses/by-sa/4.0/}{署名-相同方式
@@ -320,9 +321,19 @@
         \end{leftbar}
     \end{frame}
 
+{
+    %%%%%%%%%%%% SOME CONFIGURATION %%%%%%%%%%%% 
+    \setbeamertemplate{background canvas}[default]
+    \ifxstringequal{\nju@option@colortheme}{light}{
+        \setbeamercolor{frametitle}{fg=mDarkTeal,bg=black!2}
+        }{
+        \setbeamercolor{frametitle}{fg=black!2,bg=mDarkTeal}
+    }
+    %%%%%%%%%%%% SOME CONFIGURATION %%%%%%%%%%%% 
     \begin{standout}[]
         感谢聆听！
     \end{standout}
+}
 
     \appendix
 
