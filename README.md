@@ -1,7 +1,7 @@
 # `njubeamer` 
 # by Niu Liu (niu.liu@nju.edu.cn)
 
-This is a LaTeX template based on the [`metropolis`](https://github.com/matze/mtheme) beamer theme, and customized for the convenience of making slides for Nanjing University (NJU).
+This is a non-official LaTeX template based on the [`metropolis`](https://github.com/matze/mtheme) beamer theme, and customized for the convenience of making slides for Nanjing University (NJU).
 
 The original template is copied from a template named cuzbeamer (https://github.com/xiehao/cuzthesis) used for students in Communication University of Zhejiang (CUZ), which is a very good one. I made some modifications to the template according to my habits and added several NJU elements. The new template was then renamed to njubeamer. It could be used for class lecture and presentation for defense.
 
