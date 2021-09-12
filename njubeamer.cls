@@ -157,6 +157,12 @@
 \newenvironment{standout}[1][]{%
     \begingroup
     \setbeamertemplate{frame footer}{}
+    \setbeamertemplate{background canvas}[default]
+    \ifxstringequal{\nju@option@colortheme}{light}{
+        \setbeamercolor{frametitle}{fg=black!2,bg=mDarkTeal}
+        }{
+        \setbeamercolor{frametitle}{fg=mDarkTeal,bg=black!2}
+    }
     \begin{frame}[standout]{#1}
 }{%
     \end{frame}
