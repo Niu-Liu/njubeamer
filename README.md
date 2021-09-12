@@ -1,5 +1,5 @@
 # `njubeamer` 
-# by Niu Liu (niu.liu@nju.edu.cn)
+## by Niu Liu (niu.liu@nju.edu.cn)
 
 This is a LaTeX template based on the [`metropolis`](https://github.com/matze/mtheme) beamer theme, and customized for the convenience of making slides for Nanjing University (NJU).
 
