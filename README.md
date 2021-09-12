@@ -1,2 +1,2 @@
 # njubeamer
-A non-offical LaTeX template used in NJU
+A non-official LaTeX template used in NJU
